@@ -1,0 +1,30 @@
+{
+  "name": "checkr-os",
+  "version": "1.0.0",
+  "description": "Checkr onsite",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha tests/**/*spec.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scmarlatt/checkr-os.git"
+  },
+  "author": "Scott Marlatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scmarlatt/checkr-os/issues"
+  },
+  "homepage": "https://github.com/scmarlatt/checkr-os#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.7.0",
+    "mongoose": "^5.7.11"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
